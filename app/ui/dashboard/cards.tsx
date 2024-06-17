@@ -12,7 +12,7 @@ const iconMap = {
   collected: BanknotesIcon,
   reports: DocumentDuplicateIcon,
   history: ServerStackIcon,
-  setting: WrenchIcon,
+  settings: WrenchIcon,
   pending: ClockIcon,
   invoices: InboxIcon,
 };
