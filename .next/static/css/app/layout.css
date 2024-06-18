@@ -1503,6 +1503,10 @@ input[type='number']::-webkit-outer-spin-button {
     display: flex;
   }
 
+  .sm\:grid {
+    display: grid;
+  }
+
   .sm\:rotate-0 {
     --tw-rotate: 0deg;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1545,6 +1549,10 @@ input[type='number']::-webkit-outer-spin-button {
 
   .md\:table {
     display: table;
+  }
+
+  .md\:grid {
+    display: grid;
   }
 
   .md\:hidden {
@@ -1690,6 +1698,10 @@ input[type='number']::-webkit-outer-spin-button {
 }
 
 @media (min-width: 1024px) {
+
+  .lg\:grid {
+    display: grid;
+  }
 
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));

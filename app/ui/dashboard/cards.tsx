@@ -1,7 +1,7 @@
 import {
   BanknotesIcon,
   ClockIcon,
-  ServerStackIcon,
+  UserGroupIcon,
   DocumentDuplicateIcon,
   InboxIcon,
   WrenchIcon,
@@ -12,8 +12,8 @@ import { log } from 'console';
 const iconMap = {
   collected: BanknotesIcon,
   reports: DocumentDuplicateIcon,
-  history: ServerStackIcon,
-  settings: WrenchIcon,
+  // history: ServerStackIcon,
+  customers: UserGroupIcon,
   pending: ClockIcon,
   invoices: InboxIcon,
 };
@@ -42,7 +42,7 @@ export function Card({
 }: {
   title: string;
   value: number | string;
-  type: 'history' | 'reports'| 'settings' | 'pending' | 'collected';
+  type: 'customers' | 'invoices' | 'reports'|  'pending' | 'collected';
 }) {
   const Icon = iconMap[type];
 
